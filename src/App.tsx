@@ -7,14 +7,14 @@ import './App.css';
 const App = () => {
   return(
     <div className="welcome">
-      <h1 className="ui header">mentsuke</h1>
-      <h4 className="ui header">shinohara Book Binding inc.</h4>
-      <h5 className="ui header">Fukuoka Japan</h5>
+      <h1>Mentsuke App</h1>
+      <h3>Shinohara Book Binding inc.</h3>
+      <h5>Fukuoka Japan</h5>
       <div className="btn">
         <Button />
       </div>
       <img src={image} alt="book"/>
-      <footer>&copy;Shinohara Book Binding inc.</footer>
+      <footer>&copy; Shinohara Book Binding inc.</footer>
     </div>
   );
 }
