@@ -6,6 +6,9 @@
   height: 100vh;
 }
 
+.header {
+  margin: 24px;
+}
 .btn {
   margin: 24px;
 }
