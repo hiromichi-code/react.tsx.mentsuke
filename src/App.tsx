@@ -15,7 +15,7 @@ const App = () => {
       <h3>Shinohara Book Binding inc.</h3>
       <h5>Fukuoka Japan</h5>
       <div className="btn">
-        <Button btn="click"/>
+        <Button title="start"/>
       </div>
       <img src={image} alt="book"/>
       <div className="footer">
