@@ -1,14 +1,13 @@
-import React from 'react';
-import image from './images/book.svg';
-import Button from './components/Button';
-import Header from './components/Header';
-import Footer from './components/Footer';
-// import { Link } from 'react-router-dom';
+import React from "react";
+import image from "./images/book.svg";
+import Button from "./components/Button";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-import './App.css';
+import "./App.css";
 
 const App = () => {
-  return(
+  return (
     <div className="welcome">
       <div className="header">
         <Header />
@@ -16,14 +15,14 @@ const App = () => {
       <h3>Shinohara Book Binding inc.</h3>
       <h5>Fukuoka Japan</h5>
       <div className="btn">
-        <Button title="start"/>
+        <Button title="start" />
       </div>
-      <img src={image} alt="book"/>
+      <img src={image} alt="book" />
       <div className="footer">
         <Footer />
       </div>
     </div>
   );
-}
+};
 
 export default App;
