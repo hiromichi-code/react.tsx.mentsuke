@@ -20,30 +20,15 @@
 }
 
 .main .btn {
-  margin: 16px;
-}
-
-.main .btn button {
-  margin: 8px;
-}
-
-.main img {
-  margin-bottom: 32px;
-  max-width: 100%;
-  opacity: 0.6;
-}
-
-.main h3,
-.main h5 {
-  margin: 0;
-  opacity: 0.6;
+  margin: 24px;
 }
 
 .main h1 {
-  color: #0e6eb8;
+  margin-bottom: 32px;
+  color: #0E6EB8;
 }
 
 .main footer {
-  opacity: 0.6;
+  opacity: .6;
 }
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=Eight.css.map */

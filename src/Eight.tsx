@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Link } from "react-router-dom";
 
-const Sixteen = () => {
+const Eight = () => {
   return (
     <div className="main">
       <div className="header">
@@ -21,4 +21,4 @@ const Sixteen = () => {
   );
 };
 
-export default Sixteen;
+export default Eight;
