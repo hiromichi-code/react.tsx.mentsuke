@@ -27,7 +27,7 @@
     "preghpages": "yarn build",
     "ghpages": "gh-pages -d build"
   },
-  "homepage": "https://hiromichi-code.github.io/react.tsx.mentsuke/",
+  "homepage": "./index.tsx",
   "eslintConfig": {
     "extends": "react-app"
   },
