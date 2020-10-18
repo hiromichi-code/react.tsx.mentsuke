@@ -44,7 +44,11 @@ body {
 .main h1 {
   color: #fff;
   margin: 0;
-  font-size: 48px;
+  font-size: 24px;
+}
+
+.main h1 span {
+  color: gray;
 }
 
 .main .hero {
@@ -65,20 +69,12 @@ body {
   background-color: #fff;
 }
 
-.main .hero .btn {
-  margin: 16px;
-}
-
-.main .hero .btn button {
-  margin: 8px;
-}
-
 .main .hero footer {
   opacity: 0.6;
 }
 
 .sub-header {
-  height: 5vh;
+  height: 10vh;
   width: 100%;
   margin: 0;
   display: -webkit-box;
@@ -97,7 +93,7 @@ body {
 }
 
 .sub-hero {
-  height: 95vh;
+  height: 90vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

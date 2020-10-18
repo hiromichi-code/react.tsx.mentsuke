@@ -52,7 +52,7 @@ const Sixteen = () => {
   return(
     <div className="main">
       <div className="sub-header">
-        <Header />
+        <h1><span>Mentsuke App</span>  16page</h1>
       </div>
       <div className="sub-hero">
         <div className="btn">
@@ -80,7 +80,7 @@ const Eight = () => {
   return(
     <div className="main">
       <div className="sub-header">
-        <Header />
+        <h1><span>Mentsuke App</span>  8page</h1>
       </div>
       <div className="sub-hero">
         <div className="btn">
@@ -108,7 +108,7 @@ const Four = () => {
   return(
     <div className="main">
       <div className="sub-header">
-        <Header />
+        <h1><span>Mentsuke App</span>  4page</h1>
       </div>
       <div className="sub-hero">
         <div className="btn">
@@ -136,7 +136,7 @@ const Two = () => {
   return(
     <div className="main">
       <div className="sub-header">
-        <Header />
+        <h1><span>Mentsuke App</span>  2page</h1>
       </div>
       <div className="sub-hero">
         <div className="btn">
