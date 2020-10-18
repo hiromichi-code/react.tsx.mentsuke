@@ -21,14 +21,14 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "redeploy": "yarn build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "./",
+  "homepage": "https://hiromichi-code.github.io/react.tsx.mentsuke/",
   "eslintConfig": {
     "extends": "react-app"
   },
