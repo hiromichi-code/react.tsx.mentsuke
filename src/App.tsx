@@ -40,10 +40,10 @@ const Home = () => {
             <Link to="./Two">2頁</Link>
           </button>
         </div>
+      </div>
         <div className="footer">
           <Footer />
         </div>
-      </div>
     </div>
   );
 };
@@ -69,10 +69,10 @@ const Sixteen = () => {
             <Link to="./Two">2頁</Link>
           </button>
         </div>
+      </div>
         <div className="footer">
           <Footer />
         </div>
-      </div>
     </div>
   );
 };
@@ -97,10 +97,10 @@ const Eight = () => {
             <Link to="./Two">2頁</Link>
           </button>
         </div>
+      </div>
         <div className="footer">
           <Footer />
         </div>
-      </div>
     </div>
   );
 };
@@ -125,10 +125,10 @@ const Four = () => {
             <Link to="./Two">2頁</Link>
           </button>
         </div>
+      </div>
         <div className="footer">
           <Footer />
         </div>
-      </div>
     </div>
   );
 };
@@ -153,10 +153,10 @@ const Two = () => {
             <Link to="./Four">4頁</Link>
           </button>
         </div>
+      </div>
         <div className="footer">
           <Footer />
         </div>
-      </div>
     </div>
   );
 };
