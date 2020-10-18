@@ -9,6 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Route exact path="/" component={Home} />
+      <Route exact path="/Sixteen" component={Sixteen} />
     </BrowserRouter>
   );
 };
@@ -23,7 +24,9 @@ const Home = () => {
       </div>
       <div className="hero">
         <div className="btn">
-          <button className="ui primary basic button">16頁</button>
+          <button className="ui primary basic button">
+            <Link to="./Sixteen">16頁</Link>
+          </button>
           <button className="ui primary basic button">8頁</button>
           <button className="ui primary basic button">4頁</button>
           <button className="ui primary basic button">2頁</button>
@@ -35,5 +38,11 @@ const Home = () => {
     </div>
   );
 };
+
+const Sixteen =()=>{
+  return(
+    <p>1</p>
+  );
+}
 
 export default App;
