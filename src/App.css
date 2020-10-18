@@ -44,7 +44,7 @@ body {
 .main h1 {
   color: #fff;
   margin: 0;
-  font-size: 40px;
+  font-size: 48px;
 }
 
 .main .hero {
@@ -77,6 +77,43 @@ body {
   opacity: 0.6;
 }
 
+.sub-header {
+  height: 5vh;
+  width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sub-hero {
+  height: 95vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
 @media (min-width: 600px) {
   .main {
     display: -webkit-box;
@@ -98,6 +135,9 @@ body {
   }
   .btn {
     margin-top: 48px;
+  }
+  .sub-header h1 {
+    font-size: 24px;
   }
 }
 /*# sourceMappingURL=App.css.map */

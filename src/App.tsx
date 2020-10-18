@@ -10,6 +10,9 @@ const App = () => {
     <BrowserRouter>
       <Route exact path="/" component={Home} />
       <Route exact path="/Sixteen" component={Sixteen} />
+      <Route exact path="/Eight" component={Eight} />
+      <Route exact path="/Four" component={Four} />
+      <Route exact path="/Two" component={Two} />
     </BrowserRouter>
   );
 };
@@ -27,9 +30,15 @@ const Home = () => {
           <button className="ui primary basic button">
             <Link to="./Sixteen">16頁</Link>
           </button>
-          <button className="ui primary basic button">8頁</button>
-          <button className="ui primary basic button">4頁</button>
-          <button className="ui primary basic button">2頁</button>
+          <button className="ui primary basic button">
+            <Link to="./Eight">8頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Four">4頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Two">2頁</Link>
+          </button>
         </div>
         <div className="footer">
           <Footer />
@@ -39,10 +48,117 @@ const Home = () => {
   );
 };
 
-const Sixteen =()=>{
+const Sixteen = () => {
   return(
-    <p>1</p>
+    <div className="main">
+      <div className="sub-header">
+        <Header />
+      </div>
+      <div className="sub-hero">
+        <div className="btn">
+          <button className="ui primary basic button">
+            <Link to="./">Home</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Eight">8頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Four">4頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Two">2頁</Link>
+          </button>
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    </div>
   );
-}
+};
+const Eight = () => {
+  return(
+    <div className="main">
+      <div className="sub-header">
+        <Header />
+      </div>
+      <div className="sub-hero">
+        <div className="btn">
+          <button className="ui primary basic button">
+            <Link to="./">Home</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Sixteen">16頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Four">4頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Two">2頁</Link>
+          </button>
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
+};
+const Four = () => {
+  return(
+    <div className="main">
+      <div className="sub-header">
+        <Header />
+      </div>
+      <div className="sub-hero">
+        <div className="btn">
+          <button className="ui primary basic button">
+            <Link to="./">Home</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Sixteen">16頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Eight">8頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Two">2頁</Link>
+          </button>
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
+};
+const Two = () => {
+  return(
+    <div className="main">
+      <div className="sub-header">
+        <Header />
+      </div>
+      <div className="sub-hero">
+        <div className="btn">
+          <button className="ui primary basic button">
+            <Link to="./">Home</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Sixteen">16頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Eight">8頁</Link>
+          </button>
+          <button className="ui primary basic button">
+            <Link to="./Four">4頁</Link>
+          </button>
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default App;

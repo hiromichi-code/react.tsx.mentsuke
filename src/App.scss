@@ -26,7 +26,7 @@ body {
   h1 {
     color: #fff;
     margin: 0;
-    font-size: 40px;
+    font-size: 48px;
   }
   .hero {
     height: 50vh;
@@ -48,6 +48,25 @@ body {
   }
 }
 
+.sub-header {
+  height: 5vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sub-hero {
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
 @media (min-width: 600px) {
   .main {
     display: flex;
@@ -64,5 +83,10 @@ body {
   }
   .btn {
     margin-top: 48px;
+  }
+  .sub-header{
+    h1{
+      font-size: 24px;
+    }
   }
 }
