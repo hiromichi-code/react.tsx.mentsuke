@@ -21,7 +21,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "redeploy": "yarn build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -43,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.tsx",
+  "repository": "https://github.com/hiromichi-code/react.tsx.mentsuke.git",
+  "author": "hiromichi-code <hiromichi.s.617@gmail.com>",
+  "license": "MIT"
 }
