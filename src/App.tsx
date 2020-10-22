@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react.tsx.mentsuke">
       <Route exact path="/" component={Home} />
       <Route exact path="/Sixteen" component={Sixteen} />
       <Route exact path="/Eight" component={Eight} />
