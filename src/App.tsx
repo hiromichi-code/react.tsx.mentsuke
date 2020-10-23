@@ -2,6 +2,10 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Sixteen from "./main/Sixteen";
+import Eight from "./main/Eight";
+import Four from "./main/Four";
+import Two from "./main/Two";
 
 import "./App.css";
 
@@ -38,119 +42,6 @@ const Home = () => {
           </button>
           <button className="ui primary basic button">
             <Link to="./Two">2頁</Link>
-          </button>
-        </div>
-      </div>
-        <div className="footer">
-          <Footer />
-        </div>
-    </div>
-  );
-};
-
-const Sixteen = () => {
-  return(
-    <div className="main">
-      <div className="sub-header">
-        <h1><span>Mentsuke App</span>  16page</h1>
-      </div>
-      <div className="sub-hero">
-        <div className="btn">
-          <button className="ui primary basic button">
-            <Link to="./">Home</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Eight">8頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Four">4頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Two">2頁</Link>
-          </button>
-        </div>
-      </div>
-        <div className="footer">
-          <Footer />
-        </div>
-    </div>
-  );
-};
-const Eight = () => {
-  return(
-    <div className="main">
-      <div className="sub-header">
-        <h1><span>Mentsuke App</span>  8page</h1>
-      </div>
-      <div className="sub-hero">
-        <div className="btn">
-          <button className="ui primary basic button">
-            <Link to="./">Home</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Sixteen">16頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Four">4頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Two">2頁</Link>
-          </button>
-        </div>
-      </div>
-        <div className="footer">
-          <Footer />
-        </div>
-    </div>
-  );
-};
-const Four = () => {
-  return(
-    <div className="main">
-      <div className="sub-header">
-        <h1><span>Mentsuke App</span>  4page</h1>
-      </div>
-      <div className="sub-hero">
-        <div className="btn">
-          <button className="ui primary basic button">
-            <Link to="./">Home</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Sixteen">16頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Eight">8頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Two">2頁</Link>
-          </button>
-        </div>
-      </div>
-        <div className="footer">
-          <Footer />
-        </div>
-    </div>
-  );
-};
-const Two = () => {
-  return(
-    <div className="main">
-      <div className="sub-header">
-        <h1><span>Mentsuke App</span>  2page</h1>
-      </div>
-      <div className="sub-hero">
-        <div className="btn">
-          <button className="ui primary basic button">
-            <Link to="./">Home</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Sixteen">16頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Eight">8頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Four">4頁</Link>
           </button>
         </div>
       </div>
