@@ -8,13 +8,13 @@ const Two = () => {
       <div className="sub-header">
         <h1><span>Mentsuke App</span>  2page</h1>
       </div>
+      <div className="design">
+        <h1>a</h1>
+      </div>
       <div className="sub-hero">
         <div className="btn">
           <button className="ui primary basic button">
-            <Link to="./">Home</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Sixteen">16頁</Link>
+            <Link to="./A4">A4</Link>
           </button>
           <button className="ui primary basic button">
             <Link to="./Eight">8頁</Link>
@@ -23,9 +23,9 @@ const Two = () => {
             <Link to="./Four">4頁</Link>
           </button>
         </div>
-      </div>
-      <div className="design">
-        <h1>a</h1>
+        <a className="backToHome">
+            <Link to="./">Back To Home</Link>
+          </a>
       </div>
         <div className="footer">
           <Footer />

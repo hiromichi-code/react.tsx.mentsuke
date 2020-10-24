@@ -1,0 +1,25 @@
+.design{
+  height: 60vh;
+  width: 100%;
+  background-color: #fff;
+}
+.design-one{
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+.design-two{
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+
+@media(min-width: 600px){
+  .design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

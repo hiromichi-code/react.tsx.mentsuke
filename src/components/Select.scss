@@ -1,0 +1,41 @@
+.select {
+  height: auto;
+  width: 100%;
+  .l-select {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    button{
+      line-height: 32px;
+    }
+    .l-select-primary {
+      margin-top: 16px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      .l-method {
+        display: flex;
+        flex-direction: column;
+        button{
+          margin-top: 16px;
+        }
+      }
+    }
+    .l-select-secondary {
+      margin-top: 32px;
+      height: auto;
+      display: flex;
+      .l-direction {
+        display: flex;
+        flex-direction: column;
+        button{
+          margin: 8px;
+        }
+      }
+    }
+  }
+}

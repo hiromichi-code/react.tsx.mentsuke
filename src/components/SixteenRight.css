@@ -1,0 +1,212 @@
+.l-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-secondary .left-out > .out-one,
+.l-secondary .out-two,
+.l-secondary .out-three,
+.l-secondary .out-four,
+.l-secondary .out-five,
+.l-secondary .out-six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.l-secondary .left-out,
+.l-secondary .right-out {
+  width: 32px;
+  height: 300px;
+}
+
+.l-secondary .left-out .top-out,
+.l-secondary .left-out .out-one,
+.l-secondary .left-out .out-three,
+.l-secondary .left-out .out-four,
+.l-secondary .left-out .out-six,
+.l-secondary .left-out .bottom-out,
+.l-secondary .right-out .top-out,
+.l-secondary .right-out .out-one,
+.l-secondary .right-out .out-three,
+.l-secondary .right-out .out-four,
+.l-secondary .right-out .out-six,
+.l-secondary .right-out .bottom-out {
+  height: 20px;
+  margin: 1px;
+}
+
+.l-secondary .left-out .out-two,
+.l-secondary .left-out .out-five,
+.l-secondary .right-out .out-two,
+.l-secondary .right-out .out-five {
+  height: 104px;
+  margin: 1px;
+}
+
+.l-secondary .one,
+.l-secondary .three,
+.l-secondary .four,
+.l-secondary .six,
+.l-secondary .seven,
+.l-secondary .nine,
+.l-secondary .ten,
+.l-secondary .twelve {
+  width: 20px;
+  height: 300px;
+}
+
+.l-secondary .one .top-out,
+.l-secondary .one .bottom-out,
+.l-secondary .three .top-out,
+.l-secondary .three .bottom-out,
+.l-secondary .four .top-out,
+.l-secondary .four .bottom-out,
+.l-secondary .six .top-out,
+.l-secondary .six .bottom-out,
+.l-secondary .seven .top-out,
+.l-secondary .seven .bottom-out,
+.l-secondary .nine .top-out,
+.l-secondary .nine .bottom-out,
+.l-secondary .ten .top-out,
+.l-secondary .ten .bottom-out,
+.l-secondary .twelve .top-out,
+.l-secondary .twelve .bottom-out {
+  height: 20px;
+  margin: 1px;
+}
+
+.l-secondary .one .out-one,
+.l-secondary .one .out-three,
+.l-secondary .one .out-four,
+.l-secondary .one .out-six,
+.l-secondary .three .out-one,
+.l-secondary .three .out-three,
+.l-secondary .three .out-four,
+.l-secondary .three .out-six,
+.l-secondary .four .out-one,
+.l-secondary .four .out-three,
+.l-secondary .four .out-four,
+.l-secondary .four .out-six,
+.l-secondary .six .out-one,
+.l-secondary .six .out-three,
+.l-secondary .six .out-four,
+.l-secondary .six .out-six,
+.l-secondary .seven .out-one,
+.l-secondary .seven .out-three,
+.l-secondary .seven .out-four,
+.l-secondary .seven .out-six,
+.l-secondary .nine .out-one,
+.l-secondary .nine .out-three,
+.l-secondary .nine .out-four,
+.l-secondary .nine .out-six,
+.l-secondary .ten .out-one,
+.l-secondary .ten .out-three,
+.l-secondary .ten .out-four,
+.l-secondary .ten .out-six,
+.l-secondary .twelve .out-one,
+.l-secondary .twelve .out-three,
+.l-secondary .twelve .out-four,
+.l-secondary .twelve .out-six {
+  height: 20px;
+  background-color: #0e6eb8;
+  margin: 1px;
+}
+
+.l-secondary .one .out-two,
+.l-secondary .one .out-five,
+.l-secondary .three .out-two,
+.l-secondary .three .out-five,
+.l-secondary .four .out-two,
+.l-secondary .four .out-five,
+.l-secondary .six .out-two,
+.l-secondary .six .out-five,
+.l-secondary .seven .out-two,
+.l-secondary .seven .out-five,
+.l-secondary .nine .out-two,
+.l-secondary .nine .out-five,
+.l-secondary .ten .out-two,
+.l-secondary .ten .out-five,
+.l-secondary .twelve .out-two,
+.l-secondary .twelve .out-five {
+  height: 104px;
+  background-color: #0e6eb8;
+  margin: 1px;
+}
+
+.l-secondary .two,
+.l-secondary .five,
+.l-secondary .eight,
+.l-secondary .eleven {
+  width: 80px;
+  height: 300px;
+}
+
+.l-secondary .two .top-out,
+.l-secondary .two .bottom-out,
+.l-secondary .five .top-out,
+.l-secondary .five .bottom-out,
+.l-secondary .eight .top-out,
+.l-secondary .eight .bottom-out,
+.l-secondary .eleven .top-out,
+.l-secondary .eleven .bottom-out {
+  height: 20px;
+  margin: 1px;
+}
+
+.l-secondary .two .out-one,
+.l-secondary .two .out-three,
+.l-secondary .two .out-four,
+.l-secondary .two .out-six,
+.l-secondary .five .out-one,
+.l-secondary .five .out-three,
+.l-secondary .five .out-four,
+.l-secondary .five .out-six,
+.l-secondary .eight .out-one,
+.l-secondary .eight .out-three,
+.l-secondary .eight .out-four,
+.l-secondary .eight .out-six,
+.l-secondary .eleven .out-one,
+.l-secondary .eleven .out-three,
+.l-secondary .eleven .out-four,
+.l-secondary .eleven .out-six {
+  height: 20px;
+  background-color: #0e6eb8;
+  margin: 1px;
+}
+
+.l-secondary .two .out-two,
+.l-secondary .two .out-five,
+.l-secondary .five .out-two,
+.l-secondary .five .out-five,
+.l-secondary .eight .out-two,
+.l-secondary .eight .out-five,
+.l-secondary .eleven .out-two,
+.l-secondary .eleven .out-five {
+  height: 104px;
+  background-color: #fff;
+  margin: 1px;
+  color: #0e6eb8;
+  font-size: 48px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=SixteenRight.css.map */

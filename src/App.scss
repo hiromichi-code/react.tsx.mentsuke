@@ -4,9 +4,10 @@ body {
 }
 
 .main {
-  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #0e6eb8;
   .header {
     height: 50vh;
@@ -19,8 +20,8 @@ body {
   }
   h3,
   h5 {
+    color: lighten(#0e6eb8, 32);
     margin: 0;
-    opacity: 0.6;
     font-size: 20px;
   }
   h1 {
@@ -28,11 +29,11 @@ body {
     margin: 0;
     font-size: 40px;
     span {
-      color: gray;
+      color: lighten(#0e6eb8, 32);
     }
   }
   .hero {
-    height: 40vh;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -41,7 +42,7 @@ body {
     background-color: #fff;
   }
   .footer {
-    height: 10vh;
+    height: 32px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -62,12 +63,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.design{
-  height: 60vh;
-  width: 100%;
-  margin: 0;
-  background-color: #fff;
-}
+
 .sub-hero {
   height: 20vh;
   width: 100%;
@@ -78,7 +74,7 @@ body {
   background-color: #fff;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   .main {
     display: flex;
     justify-content: space-around;
@@ -99,5 +95,14 @@ body {
     h1 {
       font-size: 24px;
     }
+  }
+  .paper-size {
+    height: 48px;
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
   }
 }

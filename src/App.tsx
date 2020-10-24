@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Sixteen from "./main/Sixteen";
+import A4 from "./main/A4";
 import Eight from "./main/Eight";
 import Four from "./main/Four";
 import Two from "./main/Two";
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <BrowserRouter basename="/react.tsx.mentsuke">
       <Route exact path="/" component={Home} />
-      <Route exact path="/Sixteen" component={Sixteen} />
+      <Route exact path="/A4" component={A4} />
       <Route exact path="/Eight" component={Eight} />
       <Route exact path="/Four" component={Four} />
       <Route exact path="/Two" component={Two} />
@@ -32,7 +32,7 @@ const Home = () => {
       <div className="hero">
         <div className="btn">
           <button className="ui primary basic button">
-            <Link to="./Sixteen">16頁</Link>
+            <Link to="./A4">A4</Link>
           </button>
           <button className="ui primary basic button">
             <Link to="./Eight">8頁</Link>
