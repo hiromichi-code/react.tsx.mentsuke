@@ -3,6 +3,55 @@ body {
   padding: 0;
 }
 
+.btn {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 16px;
+}
+
+.btn .a-size {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn .a-size button {
+  margin: 8px;
+}
+
+.btn .b-size {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn .b-size button {
+  margin: 8px;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +106,7 @@ body {
 }
 
 .main .hero {
-  height: 80px;
+  height: 40vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,7 +124,7 @@ body {
 }
 
 .main .footer {
-  height: 32px;
+  height: 10vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,9 +196,6 @@ body {
   .main h3,
   .main h5 {
     font-size: 24px;
-  }
-  .btn {
-    margin-top: 48px;
   }
   .sub-header h1 {
     font-size: 24px;

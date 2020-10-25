@@ -17,4 +17,9 @@
   margin: 0;
   background-color: #fff;
 }
+
+.paper-size {
+  height: auto;
+  margin-bottom: 48px;
+}
 /*# sourceMappingURL=A4.css.map */

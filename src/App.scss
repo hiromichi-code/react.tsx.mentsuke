@@ -3,6 +3,34 @@ body {
   padding: 0;
 }
 
+.btn {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px;
+  .a-size{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    button{
+      margin: 8px;
+    }
+  }
+  .b-size{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    button{
+      margin: 8px;
+    }
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -33,7 +61,7 @@ body {
     }
   }
   .hero {
-    height: 80px;
+    height: 40vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -42,7 +70,7 @@ body {
     background-color: #fff;
   }
   .footer {
-    height: 32px;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -87,9 +115,6 @@ body {
     h5 {
       font-size: 24px;
     }
-  }
-  .btn {
-    margin-top: 48px;
   }
   .sub-header {
     h1 {

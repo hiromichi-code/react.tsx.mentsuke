@@ -21,13 +21,13 @@ const A4 = () => {
         <div className="design-one">
           <SixteenLeft />
           <div className="paper-size">
-            <div className="paper-size-left">939×636</div>
+            <div className="paper-size-left">939×636（16p）</div>
           </div>
         </div>
         <div className="design-two">
           <SixteenRight />
           <div className="paper-size">
-            <div className="paper-size-right">880×625</div>
+            <div className="paper-size-right">880×625（16p）</div>
           </div>
         </div>
       </div>

@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import A4 from "./main/A4";
-import Eight from "./main/Eight";
-import Four from "./main/Four";
-import Two from "./main/Two";
+import Eight from "./main/A5";
+import Four from "./main/A6";
+import Two from "./main/B5";
 
 import "./App.css";
 
@@ -31,23 +31,33 @@ const Home = () => {
       </div>
       <div className="hero">
         <div className="btn">
-          <button className="ui primary basic button">
-            <Link to="./A4">A4</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Eight">8頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Four">4頁</Link>
-          </button>
-          <button className="ui primary basic button">
-            <Link to="./Two">2頁</Link>
-          </button>
+          <div className="a-size">
+            <button className="ui primary basic button">
+              <Link to="./A4">A4</Link>
+            </button>
+            <button className="ui primary basic button">
+              <Link to="./A5">A5</Link>
+            </button>
+            <button className="ui primary basic button">
+              <Link to="./A6">A6</Link>
+            </button>
+          </div>
+          <div className="b-size">
+            <button className="ui primary basic button">
+              <Link to="./B5">B5</Link>
+            </button>
+            <button className="ui primary basic button">
+              <Link to="./B6">B6</Link>
+            </button>
+            <button className="ui primary basic button">
+              <Link to="./46">四六</Link>
+            </button>
+          </div>
         </div>
       </div>
-        <div className="footer">
-          <Footer />
-        </div>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 };
