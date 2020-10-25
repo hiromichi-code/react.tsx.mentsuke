@@ -19,23 +19,26 @@
       flex-direction: column;
       .l-method {
         display: flex;
-        flex-direction: column;
         button{
-          margin-top: 16px;
+          margin: 4px;
         }
       }
     }
     .l-select-secondary {
-      margin-top: 32px;
+      margin-top: 16px;
       height: auto;
-      display: flex;
       .l-direction {
-        display: flex;
-        flex-direction: column;
         button{
-          margin: 8px;
+          margin: 4px;
         }
       }
     }
   }
+}
+
+input {
+  margin-right: 4px;
+}
+label{
+  margin: 8px;
 }

@@ -5,23 +5,35 @@ const Select = () => {
   return (
     <div className="l-select">
       <div className="l-select-primary">
-        <div className="l-method">
-          <button className="method">無線</button>
-          <button className="method">アジロ</button>
-          <button className="method">糸かがり</button>
-          <button className="method">中綴じ</button>
+        <div className="check-method">
+          <label>
+            <input type="radio" name="method" value="1" />
+            無線
+          </label>
+          <label>
+            <input type="radio" name="method" value="2" />
+            アジロ
+          </label>
+          <label>
+            <input type="radio" name="method" value="3" />
+            糸かがり
+          </label>
+          <label>
+            <input type="radio" name="method" value="4" />
+            中綴じ
+          </label>
         </div>
       </div>
       <div className="l-select-secondary">
-        <div className="l-direction">
-          <div className="leftDirection">
-            <button className="direction">左綴じ 長辺綴じ</button>
-            <button className="direction">左綴じ 短辺綴じ</button>
-          </div>
-          <div className="rightDirection">
-            <button className="direction">右綴じ 長辺綴じ</button>
-            <button className="direction">右綴じ 短辺綴じ</button>
-          </div>
+        <div className="check-direction">
+          <label>
+            <input type="radio" name="direction" value="1" />
+            左綴じ
+          </label>
+          <label>
+            <input type="radio" name="direction" value="2" />
+            右綴じ
+          </label>
         </div>
       </div>
     </div>

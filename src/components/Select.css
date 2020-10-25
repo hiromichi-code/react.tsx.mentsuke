@@ -41,35 +41,26 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .select .l-select .l-select-primary .l-method button {
-  margin-top: 16px;
+  margin: 4px;
 }
 
 .select .l-select .l-select-secondary {
-  margin-top: 32px;
+  margin-top: 16px;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.select .l-select .l-select-secondary .l-direction {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .select .l-select .l-select-secondary .l-direction button {
+  margin: 4px;
+}
+
+input {
+  margin-right: 4px;
+}
+
+label {
   margin: 8px;
 }
 /*# sourceMappingURL=Select.css.map */

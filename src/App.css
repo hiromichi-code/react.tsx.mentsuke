@@ -167,6 +167,7 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     background-color: #fff;
+    margin-top: 48px;
   }
 }
 /*# sourceMappingURL=App.css.map */
