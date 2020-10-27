@@ -56,7 +56,7 @@
 .l-primary .left-out .out-five,
 .l-primary .right-out .out-two,
 .l-primary .right-out .out-five {
-  height: 104px;
+  height: 88px;
   margin: 1px;
 }
 
@@ -145,7 +145,7 @@
 .l-primary .ten .out-five,
 .l-primary .twelve .out-two,
 .l-primary .twelve .out-five {
-  height: 104px;
+  height: 88px;
   background-color: #0e6eb8;
   margin: 1px;
 }
@@ -154,7 +154,7 @@
 .l-primary .five,
 .l-primary .eight,
 .l-primary .eleven {
-  width: 80px;
+  width: 64px;
   height: 300px;
 }
 
@@ -200,7 +200,7 @@
 .l-primary .eleven .out-two,
 .l-primary .eleven .out-five {
   font-size: 48px;
-  height: 104px;
+  height: 88px;
   background-color: #fff;
   margin: 1px;
   color: #0e6eb8;

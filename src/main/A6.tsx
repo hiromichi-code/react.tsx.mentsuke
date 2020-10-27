@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import Select from "../components/Select";
+import SixteenLeft from "../components/SixteenLeft";
+import SixteenRight from "../components/SixteenRight";
 
 const A6 = () => {
   return(
@@ -8,8 +11,34 @@ const A6 = () => {
       <div className="sub-header">
         <h1><span>Mentsuke App</span>A6</h1>
       </div>
+      <div className="select">
+        <Select />
+      </div>
       <div className="design">
-        <h1>a</h1>
+        <div className="design-one">
+          <SixteenLeft />
+          <div className="paper-size">
+            <div className="paper-size-left">939×636（16p）</div>
+          </div>
+        </div>
+        <div className="design-two">
+          <SixteenRight />
+          <div className="paper-size">
+            <div className="paper-size-right">880×625（16p）</div>
+          </div>
+        </div>
+        <div className="design-three">
+          <SixteenLeft />
+          <div className="paper-size">
+            <div className="paper-size-right">939×636（14p）</div>
+          </div>
+        </div>
+        <div className="design-four">
+          <SixteenRight />
+          <div className="paper-size">
+            <div className="paper-size-right">880×625（14p）</div>
+          </div>
+        </div>
       </div>
       <div className="sub-hero">
       <div className="btn">
@@ -19,9 +48,6 @@ const A6 = () => {
             </button>
             <button className="ui primary basic button">
               <Link to="./A5">A5</Link>
-            </button>
-            <button className="ui primary basic button">
-              <Link to="./A6">A6</Link>
             </button>
           </div>
           <div className="b-size">
@@ -36,9 +62,9 @@ const A6 = () => {
             </button>
           </div>
         </div>
-        <a className="backToHome">
+        <div className="backToHome">
             <Link to="./">Back To Home</Link>
-          </a>
+          </div>
       </div>
         <div className="footer">
           <Footer />

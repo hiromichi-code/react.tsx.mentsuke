@@ -53,6 +53,7 @@ body {
 }
 
 .main {
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,7 +67,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #0e6eb8;
 }
 
 .main .header {
@@ -86,6 +86,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #0e6eb8;
 }
 
 .main h3,
@@ -98,7 +99,7 @@ body {
 .main h1 {
   color: #fff;
   margin: 0;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .main h1 span {
@@ -106,7 +107,7 @@ body {
 }
 
 .main .hero {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,7 +125,7 @@ body {
 }
 
 .main .footer {
-  height: 10vh;
+  height: auto;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,7 +143,7 @@ body {
 }
 
 .sub-header {
-  height: 10vh;
+  height: auto;
   width: 100%;
   margin: 0;
   display: -webkit-box;
@@ -158,10 +159,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #0e6eb8;
 }
 
 .sub-hero {
-  height: 20vh;
+  height: auto;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,7 +180,12 @@ body {
   background-color: #fff;
 }
 
-@media (min-width: 750px) {
+.paper-size {
+  line-height: 32px;
+  font-size: 24px;
+}
+
+@media (min-width: 600px) {
   .main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -188,6 +195,11 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .main .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .main h1 {
     font-size: 48px;
@@ -199,11 +211,14 @@ body {
   }
   .sub-header h1 {
     font-size: 24px;
+    line-height: 48px;
+    height: auto;
   }
   .paper-size {
-    height: 48px;
+    height: auto;
     width: 100%;
     font-size: 32px;
+    line-height: 32px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -213,7 +228,7 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     background-color: #fff;
-    margin-top: 48px;
+    margin-top: 32px;
   }
 }
 /*# sourceMappingURL=App.css.map */

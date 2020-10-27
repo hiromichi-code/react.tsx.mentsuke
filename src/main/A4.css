@@ -20,6 +20,27 @@
 
 .paper-size {
   height: auto;
-  margin-bottom: 48px;
+  text-align: center;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.sub-hero {
+  height: auto;
+  margin: 32px;
+  background-color: #fff;
+}
+
+.backToHome {
+  margin: 16px;
+}
+
+footer {
+  margin-bottom: 24px;
+}
+
+.select {
+  background-color: #fff;
+  margin-top: 24px;
 }
 /*# sourceMappingURL=A4.css.map */

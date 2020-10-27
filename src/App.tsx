@@ -3,9 +3,11 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import A4 from "./main/A4";
-import Eight from "./main/A5";
-import Four from "./main/A6";
-import Two from "./main/B5";
+import A5 from "./main/A5";
+import A6 from "./main/A6";
+import B5 from "./main/B5";
+import B6 from "./main/B6";
+import 四六 from "./main/46";
 
 import "./App.css";
 
@@ -14,9 +16,11 @@ const App = () => {
     <BrowserRouter basename="/react.tsx.mentsuke">
       <Route exact path="/" component={Home} />
       <Route exact path="/A4" component={A4} />
-      <Route exact path="/Eight" component={Eight} />
-      <Route exact path="/Four" component={Four} />
-      <Route exact path="/Two" component={Two} />
+      <Route exact path="/A5" component={A5} />
+      <Route exact path="/A6" component={A6} />
+      <Route exact path="/B5" component={B5} />
+      <Route exact path="/B6" component={B6} />
+      <Route exact path="/46" component={四六} />
     </BrowserRouter>
   );
 };
@@ -54,9 +58,9 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="footer">
-        <Footer />
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
     </div>
   );

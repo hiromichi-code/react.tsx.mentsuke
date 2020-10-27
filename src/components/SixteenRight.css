@@ -1,4 +1,5 @@
 .l-secondary {
+  margin-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,6 +9,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 
 .l-secondary .left-out > .out-one,
@@ -53,7 +55,7 @@
 .l-secondary .left-out .out-five,
 .l-secondary .right-out .out-two,
 .l-secondary .right-out .out-five {
-  height: 104px;
+  height: 88px;
   margin: 1px;
 }
 
@@ -142,7 +144,7 @@
 .l-secondary .ten .out-five,
 .l-secondary .twelve .out-two,
 .l-secondary .twelve .out-five {
-  height: 104px;
+  height: 88px;
   background-color: #0e6eb8;
   margin: 1px;
 }
@@ -151,7 +153,7 @@
 .l-secondary .five,
 .l-secondary .eight,
 .l-secondary .eleven {
-  width: 80px;
+  width: 64px;
   height: 300px;
 }
 
@@ -196,7 +198,7 @@
 .l-secondary .eight .out-five,
 .l-secondary .eleven .out-two,
 .l-secondary .eleven .out-five {
-  height: 104px;
+  height: 88px;
   background-color: #fff;
   margin: 1px;
   color: #0e6eb8;

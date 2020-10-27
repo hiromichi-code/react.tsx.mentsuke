@@ -5,11 +5,11 @@ import Select from "../components/Select";
 import SixteenLeft from "../components/SixteenLeft";
 import SixteenRight from "../components/SixteenRight";
 
-const B5 = () => {
+const B6 = () => {
   return(
     <div className="main">
       <div className="sub-header">
-        <h1><span>Mentsuke App</span>B5</h1>
+        <h1><span>Mentsuke App</span>B6</h1>
       </div>
       <div className="select">
         <Select />
@@ -55,7 +55,7 @@ const B5 = () => {
           </div>
           <div className="b-size">
             <button className="ui primary basic button">
-              <Link to="./B6">B6</Link>
+              <Link to="./B5">B5</Link>
             </button>
             <button className="ui primary basic button">
               <Link to="./46">四六</Link>
@@ -73,4 +73,4 @@ const B5 = () => {
   );
 };
 
-export default B5;
+export default B6;
