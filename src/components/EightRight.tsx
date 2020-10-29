@@ -1,0 +1,93 @@
+import React from "react";
+import "../components/EightRight.scss";
+
+const EightRight = () => {
+  return (
+    <div>
+      <div className="l-eight-secondary">
+        <div className="left-out">
+          <div className="top-out"></div>
+          <div className="out-one"></div>
+          <div className="out-two"></div>
+          <div className="out-three"></div>
+          <div className="out-four"></div>
+          <div className="out-five"></div>
+          <div className="out-six"></div>
+          <div className="bottom-out"></div>
+        </div>
+        <div className="one">
+          <div className="top-out method-out-left"></div>
+          <div className="out-one"></div>
+          <div className="out-two"></div>
+          <div className="out-three"></div>
+          <div className="out-four"></div>
+          <div className="out-five"></div>
+          <div className="out-six"></div>
+          <div className="bottom-out"></div>
+        </div>
+        <div className="two">
+          <div className="top-out width"></div>
+          <div className="out-one"></div>
+          <div className="out-two direction-seven rotate-direction"></div>
+          <div className="out-three"></div>
+          <div className="out-four"></div>
+          <div className="out-five direction-two rotate-direction"></div>
+          <div className="out-six"></div>
+          <div className="bottom-out"></div>
+        </div>
+        <div className="three">
+          <div className="top-out method-shave-left"></div>
+          <div className="out-one"></div>
+          <div className="out-two"></div>
+          <div className="out-three"></div>
+          <div className="out-four"></div>
+          <div className="out-five"></div>
+          <div className="out-six"></div>
+          <div className="bottom-out"></div>
+        </div>
+        <div className="four">
+          <div className="top-out method-shave-left"></div>
+          <div className="out-one"></div>
+          <div className="out-two"></div>
+          <div className="out-three"></div>
+          <div className="out-four"></div>
+          <div className="out-five"></div>
+          <div className="out-six"></div>
+          <div className="bottom-out"></div>
+        </div>
+        <div className="five">
+          <div className="top-out width"></div>
+          <div className="out-one"></div>
+          <div className="out-two direction-ten rotate-direction"></div>
+          <div className="out-three"></div>
+          <div className="out-four"></div>
+          <div className="out-five direction-fifteen rotate-direction"></div>
+          <div className="out-six"></div>
+          <div className="bottom-out"></div>
+        </div>
+        <div className="six">
+          <div className="top-out method-in-left"></div>
+          <div className="out-one"></div>
+          <div className="out-two"></div>
+          <div className="out-three"></div>
+          <div className="out-four"></div>
+          <div className="out-five"></div>
+          <div className="out-six"></div>
+          <div className="bottom-out"></div>
+        </div>
+        <div className="right-out">
+          <div className="top-out"></div>
+          <div className="out-one method-clip-out-left"></div>
+          <div className="out-two height"></div>
+          <div className="out-three method-margin-left"></div>
+          <div className="out-four method-margin-left"></div>
+          <div className="out-five height"></div>
+          <div className="out-six method-clip-left"></div>
+          <div className="bottom-out">◎</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EightRight;

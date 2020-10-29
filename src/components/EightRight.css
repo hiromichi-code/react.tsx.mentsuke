@@ -1,0 +1,160 @@
+.l-eight-secondary {
+  margin-top: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.l-eight-secondary .left-out > .out-one,
+.l-eight-secondary .out-two,
+.l-eight-secondary .out-three,
+.l-eight-secondary .out-four,
+.l-eight-secondary .out-five,
+.l-eight-secondary .out-six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.l-eight-secondary .left-out,
+.l-eight-secondary .right-out {
+  width: 32px;
+  height: 300px;
+}
+
+.l-eight-secondary .left-out .top-out,
+.l-eight-secondary .left-out .out-one,
+.l-eight-secondary .left-out .out-three,
+.l-eight-secondary .left-out .out-four,
+.l-eight-secondary .left-out .out-six,
+.l-eight-secondary .left-out .bottom-out,
+.l-eight-secondary .right-out .top-out,
+.l-eight-secondary .right-out .out-one,
+.l-eight-secondary .right-out .out-three,
+.l-eight-secondary .right-out .out-four,
+.l-eight-secondary .right-out .out-six,
+.l-eight-secondary .right-out .bottom-out {
+  height: 20px;
+  margin: 1px;
+}
+
+.l-eight-secondary .left-out .out-two,
+.l-eight-secondary .left-out .out-five,
+.l-eight-secondary .right-out .out-two,
+.l-eight-secondary .right-out .out-five {
+  height: 88px;
+  margin: 1px;
+}
+
+.l-eight-secondary .one,
+.l-eight-secondary .three,
+.l-eight-secondary .four,
+.l-eight-secondary .six {
+  width: 20px;
+  height: 300px;
+}
+
+.l-eight-secondary .one .top-out,
+.l-eight-secondary .one .bottom-out,
+.l-eight-secondary .three .top-out,
+.l-eight-secondary .three .bottom-out,
+.l-eight-secondary .four .top-out,
+.l-eight-secondary .four .bottom-out,
+.l-eight-secondary .six .top-out,
+.l-eight-secondary .six .bottom-out {
+  height: 20px;
+  margin: 1px;
+}
+
+.l-eight-secondary .one .out-one,
+.l-eight-secondary .one .out-three,
+.l-eight-secondary .one .out-four,
+.l-eight-secondary .one .out-six,
+.l-eight-secondary .three .out-one,
+.l-eight-secondary .three .out-three,
+.l-eight-secondary .three .out-four,
+.l-eight-secondary .three .out-six,
+.l-eight-secondary .four .out-one,
+.l-eight-secondary .four .out-three,
+.l-eight-secondary .four .out-four,
+.l-eight-secondary .four .out-six,
+.l-eight-secondary .six .out-one,
+.l-eight-secondary .six .out-three,
+.l-eight-secondary .six .out-four,
+.l-eight-secondary .six .out-six {
+  height: 20px;
+  background-color: #0e6eb8;
+  margin: 1px;
+}
+
+.l-eight-secondary .one .out-two,
+.l-eight-secondary .one .out-five,
+.l-eight-secondary .three .out-two,
+.l-eight-secondary .three .out-five,
+.l-eight-secondary .four .out-two,
+.l-eight-secondary .four .out-five,
+.l-eight-secondary .six .out-two,
+.l-eight-secondary .six .out-five {
+  height: 88px;
+  background-color: #0e6eb8;
+  margin: 1px;
+}
+
+.l-eight-secondary .two,
+.l-eight-secondary .five {
+  width: 64px;
+  height: 300px;
+}
+
+.l-eight-secondary .two .top-out,
+.l-eight-secondary .two .bottom-out,
+.l-eight-secondary .five .top-out,
+.l-eight-secondary .five .bottom-out {
+  height: 20px;
+  margin: 1px;
+}
+
+.l-eight-secondary .two .out-one,
+.l-eight-secondary .two .out-three,
+.l-eight-secondary .two .out-four,
+.l-eight-secondary .two .out-six,
+.l-eight-secondary .five .out-one,
+.l-eight-secondary .five .out-three,
+.l-eight-secondary .five .out-four,
+.l-eight-secondary .five .out-six {
+  height: 20px;
+  background-color: #0e6eb8;
+  margin: 1px;
+}
+
+.l-eight-secondary .two .out-two,
+.l-eight-secondary .two .out-five,
+.l-eight-secondary .five .out-two,
+.l-eight-secondary .five .out-five {
+  height: 88px;
+  background-color: #fff;
+  margin: 1px;
+  color: #0e6eb8;
+  font-size: 48px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=EightRight.css.map */

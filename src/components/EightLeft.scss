@@ -1,0 +1,105 @@
+$main-color: #0e6eb8;
+$main-font-size: 48px;
+$base-color: #fff;
+$small-size: 20px;
+$big-height-size: 88px;
+$big-width-size: 64px;
+$all-height: 300px;
+$out-height: 32px;
+$out-width: 32px;
+$groove: 1px;
+$alert-color: red;
+$alert-size: 32px;
+
+.l-eight-primary {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .left-out > .bottom-out {
+    text-align: right;
+  }
+  .right-out > .out-one,
+  .out-two,
+  .out-three,
+  .out-four,
+  .out-five,
+  .out-six {
+    display: flex;
+    align-items: center;
+  }
+  .left-out,
+  .right-out {
+    width: $out-width;
+    height: $all-height;
+    .top-out,
+    .out-one,
+    .out-three,
+    .out-four,
+    .out-six,
+    .bottom-out {
+      height: $small-size;
+      margin: $groove;
+    }
+    .out-two,
+    .out-five {
+      height: $big-height-size;
+      margin: $groove;
+    }
+  }
+  .one,
+  .three,
+  .four,
+  .six {
+    width: $small-size;
+    height: $all-height;
+    .top-out,
+    .bottom-out {
+      height: $small-size;
+      margin: $groove;
+    }
+    .out-one,
+    .out-three,
+    .out-four,
+    .out-six {
+      height: $small-size;
+      background-color: $main-color;
+      margin: $groove;
+    }
+    .out-two,
+    .out-five {
+      height: $big-height-size;
+      background-color: $main-color;
+      margin: $groove;
+    }
+  }
+  .two,
+  .five {
+    width: $big-width-size;
+    height: $all-height;
+    .top-out,
+    .bottom-out {
+      height: $small-size;
+      margin: $groove;
+    }
+    .out-one,
+    .out-three,
+    .out-four,
+    .out-six {
+      height: $small-size;
+      background-color: $main-color;
+      margin: $groove;
+    }
+    .out-two,
+    .out-five {
+      font-size: $main-font-size;
+      height: $big-height-size;
+      background-color: $base-color;
+      margin: $groove;
+      color: $main-color;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

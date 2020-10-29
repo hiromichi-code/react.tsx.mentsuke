@@ -4,6 +4,10 @@ import Footer from "../components/Footer";
 import Select from "../components/Select";
 import SixteenLeft from "../components/SixteenLeft";
 import SixteenRight from "../components/SixteenRight";
+import ThirtyTwoLeft from "../components/ThirtyTwoLeft";
+import ThirtyTwoRight from "../components/ThirtyTwoRight";
+import EightLeft from "../components/EightLeft";
+import EightRight from "../components/EightRight";
 
 const A6 = () => {
   return(
@@ -15,28 +19,52 @@ const A6 = () => {
         <Select />
       </div>
       <div className="design">
-        <div className="design-one">
+        <div className="design-child">
+          <ThirtyTwoLeft />
+          <div className="paper-size">
+            <div className="paper-size-left">636×469（16p+16p）</div>
+          </div>
+        </div>
+        <div className="design-child">
+          <ThirtyTwoRight />
+          <div className="paper-size">
+            <div className="paper-size-Right">625×440（16p+16p）</div>
+          </div>
+        </div>
+        <div className="design-child">
           <SixteenLeft />
           <div className="paper-size">
-            <div className="paper-size-left">939×636（16p）</div>
+            <div className="paper-size-left">469×318（16p）</div>
           </div>
         </div>
-        <div className="design-two">
+        <div className="design-child">
           <SixteenRight />
           <div className="paper-size">
-            <div className="paper-size-right">880×625（16p）</div>
+            <div className="paper-size-right">440×312（16p）</div>
           </div>
         </div>
-        <div className="design-three">
+        <div className="design-child">
           <SixteenLeft />
           <div className="paper-size">
-            <div className="paper-size-right">939×636（14p）</div>
+            <div className="paper-size-left">469×318（8p+4p+2p）</div>
           </div>
         </div>
-        <div className="design-four">
+        <div className="design-child">
           <SixteenRight />
           <div className="paper-size">
-            <div className="paper-size-right">880×625（14p）</div>
+            <div className="paper-size-right">440×312（8p+4p+2p）</div>
+          </div>
+        </div>
+        <div className="design-child">
+          <EightLeft />
+          <div className="paper-size">
+            <div className="paper-size-left">636×469（8p）</div>
+          </div>
+        </div>
+        <div className="design-child">
+          <EightRight />
+          <div className="paper-size">
+            <div className="paper-size-right">625×440（8p）</div>
           </div>
         </div>
       </div>
